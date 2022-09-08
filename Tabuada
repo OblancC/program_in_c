@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int cont,numero,calc;
+    printf("Digite o numero para descobrir a tabuada:\n");
+    scanf("%i", &numero);
+    for(cont=0;cont<10;cont++){
+        calc=numero*(cont+1);
+        printf(" %i * %i\t=%i\n", numero,cont+1,calc);
+    }
+    return 0;
+}
